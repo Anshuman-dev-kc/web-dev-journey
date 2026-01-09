@@ -70,3 +70,4 @@ fightButton.addEventListener("click", function() {
     stageEL.textContent = player1 + "  vs  " + player2
 
 })
+// learnt that if you want to make a line so that every condition it doesnt reset to zero you do i += 1 or something like that
