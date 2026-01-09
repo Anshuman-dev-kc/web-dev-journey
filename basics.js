@@ -40,3 +40,12 @@ largeCountries.unshift("China")
 for (let i = 0; i < largeCountries.length; i++){
     console.log(largeCountries[i])
 }
+// Practicing AND operators
+let dayOfMonth = 13
+let weekday = "Friday"
+
+if (dayOfMonth === 13 && weekday === "Friday") {
+    console.log("😱")
+} else {
+    console.log("Safe")
+}
