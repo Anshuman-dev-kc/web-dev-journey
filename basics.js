@@ -57,3 +57,16 @@ function getHand() {
 }
 
 console.log( getHand() ) 
+// practice functions arrays and document object
+let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
+
+let stageEl = document.getElementById("stage")
+let fightButton = document.getElementById("fightButton")
+let stageEL = document.getElementById("stage")
+
+fightButton.addEventListener("click", function() {
+    let player1 = fighters[Math.floor(Math.random()* 17)]
+    let player2 = fighters[Math.floor(Math.random()* 17)]
+    stageEL.textContent = player1 + "  vs  " + player2
+
+})
