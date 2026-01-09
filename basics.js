@@ -23,3 +23,10 @@ if (age < 6) {
 } else {
     console.log("Senior citizen discount")
 }
+// revising for loops and creating arrays
+let largeCountries = ["China","India","USA","Indonesia","Pakistan"]
+
+
+for (let i = 0; i < largeCountries.length; i++ ) {
+    console.log(largeCountries[i])
+}
